@@ -1,0 +1,33 @@
+{
+  "name": "degraciamathieu/is-even",
+  "description": "",
+  "homepage": "https://github.com/degraciamathieu/is-even",
+  "license": "MIT",
+  "keywords": [
+    "php",
+    "is even"
+  ],
+  "authors": [
+    {
+      "name": "De Gracia Mathieu",
+      "email": "contact@degracia-mathieu.fr"
+    }
+  ],
+  "require": {
+    "php": "^5 || ^7 || ^8"
+  },
+  "require-dev": {
+      "phpunit/phpunit": "^8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "DeGraciaMathieu\\IsEven\\": "src/"
+    },
+    "files": ["src/isEven.php"]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "DeGraciaMathieu\\IsEven\\Tests\\": "tests/"
+    }
+  }
+}
