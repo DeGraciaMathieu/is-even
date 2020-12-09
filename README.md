@@ -2,7 +2,9 @@
 # DeGraciaMathieu/is-even
 Returns `true` if the given number is even... in the worst possible way, what else ?
 ## Installation
+```
 composer require degraciamathieu/is-even
+```
 ## Usage
 ```php
 \DeGraciaMathieu\IsEven\isEven(2) // true
