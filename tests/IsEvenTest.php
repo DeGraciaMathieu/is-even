@@ -22,8 +22,7 @@ class IsEvenTest extends TestCase
         return [
             [2, true],
             [3, false],
-            // [1008, true],
-            // [10009, false],
+            // [1025, false],
         ];
     }
 }
