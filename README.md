@@ -10,3 +10,5 @@ composer require degraciamathieu/is-even
 \DeGraciaMathieu\IsEven\isEven(2) // true
 // thank you, package !
 ```
+## Notes
+Obviously it's a joke, don't blame me.
